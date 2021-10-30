@@ -21,3 +21,5 @@ The first one is the public-hosted zone and the second one is the private-hosted
 ![alt text](https://github.com/rony-james/Hosting-website-with-RDS-Load-balancing/blob/main/db-identifier.png?raw=true)
 
 Added two CNAME records to our local domain and set name to read.ddr3.website.local and TTL to 1 second and select routing policy to weighted and fill weight to 50. We should need to provide the database name on the configuration file as "read.ddr3.website.local". 
+
+![alt text](https://github.com/rony-james/Hosting-website-with-RDS-Load-balancing/blob/main/dig-result.png?raw=true)
