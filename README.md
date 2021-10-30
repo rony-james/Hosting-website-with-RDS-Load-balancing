@@ -1,5 +1,18 @@
 # Load Balancing Amazon RDS Mysql Simple Way
-A simple wordpress website hosted under a auto-scaled environment with RDS load balancing
+### A simple wordpress website hosted under a auto-scaled environment with RDS load balancing
+
+
+![alt text](https://github.com/rony-james/Hosting-website-with-RDS-Load-balancing/blob/main/RDS-LB.jpg?raw=true)
+
+## Used Resources
+- EC2
+- VPC
+- ELB
+- Route 53
+- RDS
+- NFS
+
+
 
 In this project a WordPress website hosted on an EC2 instance with auto-scaling enabled. The files of the website are stored in EFS storage that is attached with the EC2. An auto-scaling group is enabled with an application load balancer. The endpoint of the application load balancer is configured as the A record of the domain, which will lead to the connections to the load balancer.
 On Route 53, we have two hosted zones available. 
