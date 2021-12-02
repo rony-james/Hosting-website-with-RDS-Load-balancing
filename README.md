@@ -10,7 +10,7 @@
 - ELB
 - Route 53
 - RDS
-- NFS
+- EFS
 
 
 
